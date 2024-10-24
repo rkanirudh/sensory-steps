@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sensory Steps - Real-Time Image-to-Voice Assistance</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.6;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 1.5rem 0;
+  text-align: center;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  padding: 2rem;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+.cta-btn {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  background: #007BFF;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+/* About Section */
+#about {
+  padding: 2rem;
+  background: #f4f4f4;
+  text-align: center;
+}
+
+/* Features Section */
+#features {
+  padding: 2rem;
+  text-align: center;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.feature-item {
+  background: #f4f4f4;
+  padding: 1.5rem;
+  margin: 1rem;
+  width: 300px;
+  border-radius: 5px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 2rem;
+  background: #f4f4f4;
+  text-align: center;
+}
+
+.pricing-plans {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.plan {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 1.5rem;
+  margin: 1rem;
+  width: 300px;
+  border-radius: 5px;
+}
+
+/* Testimonials Section */
+#testimonials {
+  padding: 2rem;
+  text-align: center;
+}
+
+blockquote {
+  background: #f4f4f4;
+  padding: 1.5rem;
+  margin: 1rem;
+  border-radius: 5px;
+}
+
+/* Contact Section */
+#contact {
+  padding: 2rem;
+  background: #f4f4f4;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+input, textarea {
+  padding: 0.8rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 1rem;
+  background: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+footer nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer nav ul li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+footer nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+  </style>
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h1>Empowering Independence for the Visually Impaired</h1>
+      <p>Real-Time AI Assistance for Mobility and Interaction</p>
+      <a href="#features" class="cta-btn">Learn More</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Sensory Steps</h2>
+    <p>Sensory Steps is designed to revolutionize the lives of visually impaired individuals by providing an AI-driven wearable that enhances mobility and independence. Our goal is to offer comprehensive support for everyday tasks with real-time image-to-voice assistance.</p>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features">
+    <h2>How Sensory Steps Works</h2>
+    <div class="features">
+      <div class="feature-item">
+        <h3>Real-Time Image-to-Voice Conversion</h3>
+        <p>Automatically converts images of the surroundings into audio feedback, enhancing understanding of the environment.</p>
+      </div>
+      <div class="feature-item">
+        <h3>Navigation Assistance</h3>
+        <p>Provides real-time guidance for navigating various environments, ensuring a safe and seamless experience.</p>
+      </div>
+      <div class="feature-item">
+        <h3>Object Recognition</h3>
+        <p>Identifies and announces objects in the user's path, such as signs, doors, or obstacles.</p>
+      </div>
+      <div class="feature-item">
+        <h3>Daily Task Support</h3>
+        <p>Offers assistance for everyday tasks such as reading labels, identifying items, and navigating public spaces.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section id="pricing">
+    <h2>Pricing</h2>
+    <div class="pricing-plans">
+      <div class="plan">
+        <h3>Basic Model</h3>
+        <p>Includes essential AI-powered features for independence.</p>
+        <p><strong>$199</strong> one-time payment</p>
+        <a href="#" class="cta-btn">Pre-order Now</a>
+      </div>
+      <div class="plan">
+        <h3>Advanced Model</h3>
+        <p>Includes all features plus enhanced AI capabilities for advanced assistance.</p>
+        <p><strong>$299</strong> one-time payment</p>
+        <a href="#" class="cta-btn">Pre-order Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials">
+    <h2>What Our Users Are Saying</h2>
+    <div class="testimonials">
+      <blockquote>
+        <p>"Sensory Steps changed my life. I can now confidently walk in public spaces and recognize objects easily."</p>
+        <cite>– John, 45</cite>
+      </blockquote>
+      <blockquote>
+        <p>"An affordable solution that gives me more independence every day."</p>
+        <cite>– Sarah, 32</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Get in Touch</h2>
+    <form action="mailto:rkanirudh18.com" method="POST" enctype="text/plain">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Sensory Steps. All rights reserved.</p>
+    <nav>
+      <ul>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Service</a></li>
+      </ul>
+    </nav>
+  </footer>
+
+</body>
+</html>te
